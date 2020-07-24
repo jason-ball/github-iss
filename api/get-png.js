@@ -5,7 +5,7 @@
 const axios = require('axios').default;
 const { createCanvas } = require('canvas');
 
-export default (req, res) => {
+module.exports = (req, res) => {
   const canvas = createCanvas(750, 200);
   const ctx = canvas.getContext('2d');
   let iss = {};
