@@ -14,6 +14,7 @@
   "author": "Jason Ball",
   "license": "MIT",
   "dependencies": {
+    "@vercel/node": "^1.7.3",
     "axios": "^0.19.2",
     "canvas": "^2.6.1",
     "express": "^4.17.1"
